@@ -1,0 +1,32 @@
+{
+  "leftMenu": {
+    "menuName": "MENU",
+    "option1": "Opcja 1",
+    "option2": "Opcja 2",
+    "option3": "Opcja 3",
+    "option4": "Opcja 4",
+    "option5": "Opcja 5",
+    "option6": "Opcja 6"
+  },
+  "accountMenu": {
+    "menuName": "KONTO",
+    "option1": "Opcja 1",
+    "option2": "Opcja 2",
+    "option3": "Opcja 3",
+    "option4": "Opcja 4",
+    "option5": "Opcja 5"
+  },
+  "themeMenu": {
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "one": "Motyw ONE"
+  },
+  "superMenu": {
+    "option1": "Opcja 1",
+    "option2": "Opcja 2",
+    "option3": "Opcja 3",
+    "option4": "Opcja 4",
+    "option5": "Opcja 5",
+    "option6": "Opcja 6"
+  }
+}
