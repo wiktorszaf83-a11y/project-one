@@ -1,32 +1,30 @@
 {
-  "leftMenu": {
+  "leftAndSuperMenu": {
     "menuName": "MENU",
-    "option1": "Option 1",
-    "option2": "Option 2",
+    "option1": "Interior Designer",
+    "option2": "Flappy Bird Game",
     "option3": "Option 3",
     "option4": "Option 4",
     "option5": "Option 5",
     "option6": "Option 6"
   },
-  "accountMenu": {
+  "userMenu": {
     "menuName": "ACCOUNT",
-    "option1": "Option 1",
+    "option1": "Option 1 dłuższa opcja",
     "option2": "Option 2",
     "option3": "Option 3",
     "option4": "Option 4",
     "option5": "Option 5"
   },
   "themeMenu": {
+    "menuName": "THEME",
     "light": "Light",
     "dark": "Dark",
     "one": "ONE Theme"
   },
-  "superMenu": {
-    "option1": "Option 1",
-    "option2": "Option 2",
-    "option3": "Option 3",
-    "option4": "Option 4",
-    "option5": "Option 5",
-    "option6": "Option 6"
+  "langMenu": {
+    "menuName": "LANGUAGE",
+    "pl": "Polski",
+    "en": "English"
   }
 }

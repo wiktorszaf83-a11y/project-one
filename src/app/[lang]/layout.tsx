@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import Header from "@/components/Header";
 import "../globals.css";
 
@@ -8,10 +8,13 @@ export default async function RootLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }) {
   const resolvedParams = await params;
-  const messages = await getMessages();
+
+  setRequestLocale(resolvedParams.lang);
+
+  const messages = await getMessages({ locale: resolvedParams.lang });
 
   return (
     <html lang={resolvedParams.lang}>

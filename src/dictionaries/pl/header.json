@@ -1,14 +1,14 @@
 {
-  "leftMenu": {
+  "leftAndSuperMenu": {
     "menuName": "MENU",
-    "option1": "Opcja 1",
-    "option2": "Opcja 2",
+    "option1": "Projektant wnętrz",
+    "option2": "Gra Flappy Bird",
     "option3": "Opcja 3",
     "option4": "Opcja 4",
     "option5": "Opcja 5",
     "option6": "Opcja 6"
   },
-  "accountMenu": {
+  "userMenu": {
     "menuName": "KONTO",
     "option1": "Opcja 1",
     "option2": "Opcja 2",
@@ -17,16 +17,14 @@
     "option5": "Opcja 5"
   },
   "themeMenu": {
+    "menuName": "MOTYW",
     "light": "Jasny",
     "dark": "Ciemny",
     "one": "Motyw ONE"
   },
-  "superMenu": {
-    "option1": "Opcja 1",
-    "option2": "Opcja 2",
-    "option3": "Opcja 3",
-    "option4": "Opcja 4",
-    "option5": "Opcja 5",
-    "option6": "Opcja 6"
+  "langMenu": {
+    "menuName": "JĘZYK",
+    "pl": "Polski",
+    "en": "English"
   }
 }
